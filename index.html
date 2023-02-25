@@ -52,7 +52,18 @@
             <section class="section-poster-index">
                 <div class="container-poster-index">
                     <h1 class="titulo-poster-index-h1">SOLUCIONES EFICACES PARA<br>SU NEGOCIO</h1>
-                    <button class="boton" type="button">Solicite nuestro servicio</button>
+                    <button class="boton" type="button" data-modal-open>Solicite nuestro servicio</button>
+                    <div class="backdrop is-hidden" data-modal>
+                        <div class="modal">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Perferendis repudiandae nihil commodi, cupiditate eum aperiam
+                                voluptatum voluptatem facilis aut consectetur iusto quia quos
+                                voluptatibus illum molestiae omnis ratione corporis obcaecati!
+                            </p>
+                            <button class="button-modal-close" data-modal-close>X</button>
+                        </div>
+                    </div>
                 </div>
             </section>
             
@@ -428,5 +439,6 @@
                 </ul>
             </div>
         </footer>
+        <script src="./js/modal.js"></script>
     </body>
 </html>
