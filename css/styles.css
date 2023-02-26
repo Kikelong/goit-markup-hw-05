@@ -871,6 +871,11 @@ color: #FFFFFF;
     margin-right: 0px;
 }
 
+.subcontainer-formulario-footer{
+    padding: 0;
+    margin: 16px 70px;
+}
+
 /* ------------------------------------------------------------------- */
 
 /* PAGE PORTAFOLIO*/
