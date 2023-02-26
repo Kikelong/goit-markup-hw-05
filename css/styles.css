@@ -1122,6 +1122,18 @@ position: fixed;
 cursor: pointer;
 }
 
+.titulo-formulario-footer{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+margin-bottom: 20px;
+color: #ffffff;
+}
+
 /* FINAL DE TARJETAS INFORMATIVAS */
 
 /* FINAL MAIN PAGE PORTAFOLIO */
