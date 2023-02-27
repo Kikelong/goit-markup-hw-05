@@ -1111,8 +1111,7 @@ position: fixed;
 }
 
 .button-modal-close{
-
-    padding: 4px 8px;
+    padding: 8px 8px;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background: #ffffff;
@@ -1120,6 +1119,7 @@ position: fixed;
 
 .button-modal-close:hover{
 cursor: pointer;
+fill: var(--brand-color);
 }
 
 .titulo-formulario-footer{
